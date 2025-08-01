@@ -39,6 +39,7 @@ loading
             { top: 'calc(100% - 10px)', left: 0, width: '100%', height: '10px', borderRadius: '0 0 10px 10px' }, // bottom
             { top: 0, left: 0, width: '10px', height: '100%', borderRadius: '10px 0 0 10px' } // left
         ];
+        
         let current = 0;
         function animateLight() {
             const side = sides[current];
